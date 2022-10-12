@@ -1,0 +1,194 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "To run before all the Scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5997100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "verify network",
+            "match": {
+              "location": "stepDefinition.PreCondition.verifyNetwork()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 998100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "check excel data",
+            "match": {
+              "location": "stepDefinition.PreCondition.checkExcelData()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-13T14:26:12.039Z",
+        "line": 9,
+        "name": "validate the login feature with valid credential",
+        "description": "",
+        "id": "validate-the-login-feature;validate-the-login-feature-with-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23983226600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "check Browser as \"Chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chrome\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinition.LoginPage.checkBrowserAs(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2238997200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enter the url as \"https://djangovinoth.pythonanywhere.com/labhome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://djangovinoth.pythonanywhere.com/labhome\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinition.LoginPage.enterTheUrlAs(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 742758700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click the login link",
+            "match": {
+              "location": "stepDefinition.LoginPage.clickTheLoginLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4166602600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "verify login page successfully opened",
+            "match": {
+              "location": "stepDefinition.LoginPage.verifyLoginPageSuccessfullyOpened()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 189710000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "enter the username as \"Krithika\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Krithika\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinition.LoginPage.enterTheUsernameAs(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 158423200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "enter the password as \"Keerthi@15\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Keerthi@15\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinition.LoginPage.enterThePasswordAs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2556345300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click the login button",
+            "match": {
+              "location": "stepDefinition.LoginPage.ClickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121927100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "validate the homepage loaded successfully",
+            "match": {
+              "location": "stepDefinition.LoginPage.validateThehomepageLoadedSuccessfully()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@validLogin"
+          }
+        ]
+      }
+    ],
+    "name": "validate the login feature",
+    "description": "",
+    "id": "validate-the-login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/tags.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
