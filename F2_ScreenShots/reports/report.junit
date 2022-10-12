@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="28.503">
+    <testcase classname="validate the login feature" name="validate the login feature with valid credential" time="27.841">
+        <failure message="/ by zero" type="java.lang.ArithmeticException"><![CDATA[Given verify network........................................................passed
+And check excel data........................................................passed
+Given check Browser as "Chrome".............................................passed
+When enter the url as "https://djangovinoth.pythonanywhere.com/labhome".....passed
+And click the login link....................................................passed
+Then verify login page successfully opened..................................passed
+When enter the username as "Krithika".......................................passed
+Then enter the password as "Keerthi@15".....................................passed
+And Click the login button..................................................failed
+And validate the homepage loaded successfully...............................skipped
+
+StackTrace:
+java.lang.ArithmeticException: / by zero
+	at stepDefinition.LoginPage.ClickTheLoginButton(LoginPage.java:75)
+	at ✽.Click the login button(file:///D:/Vcentry/F2_ScreenShots/src/test/resources/features/tags.feature:17)
+]]></failure>
+    </testcase>
+</testsuite>
